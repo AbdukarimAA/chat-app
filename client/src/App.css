@@ -1,0 +1,44 @@
+/*const [socket, setSocket] = useState<Socket>()*/
+/*const [value, setValue] = useState<string>('')*/
+/*const [messages, setMessages] = useState<IMessagesArray[]>([])*/
+
+/*useEffect(() => {*/
+/*              setSocket(io.connect('http://localhost:3001'))*/
+/*              }, [])*/
+
+/*useEffect(() => {*/
+/*socket?.on('receive', (message) => {*/
+/*                                 setMessages(prevState => [...prevState, message])*/
+/*                                 })*/
+/*}, [socket])*/
+
+/*useEffect(() => {*/
+/*const fetch = async () => {*/
+/*                          const res = await axios.get('http://localhost:3001/messages/all')*/
+/*                          setMessages(res.data)*/
+/*                        }*/
+
+/*fetch()*/
+/*}, [])*/
+
+/*const functionChange = (e: ChangeEvent<HTMLInputElement>) => {*/
+/*                                                           setValue(e.target.value)*/
+/*                                                           }*/
+
+/*const FC = () => {*/
+/*const res = axios.post('http://localhost:3001/messages/write', {*/
+/*  message: value*/
+/*})*/
+/*socket?.emit('send', value)*/
+/*setValue('')*/
+/*}*/
+
+/*const KC = (e: React.KeyboardEvent<HTMLInputElement>) => {*/
+/*if(e.key === 'Enter') {*/
+/*const res = axios.post('http://localhost:3001/messages/write', {*/
+/*  message: value*/
+/*})*/
+/*socket?.emit('send', value)*/
+/*setValue('')*/
+/*}*/
+/*}*/

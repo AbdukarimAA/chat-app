@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="792e6927-5833-4471-9ef0-ee76e04b432f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/MessageList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SenderMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/img/Battery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/img/Cellular Connection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/img/Wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/img/↳ Time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/Global.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/MessageList.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/MessageSender.styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/Modal.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/client" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FMWhENXmspQkIpzFlp6tFDFrqt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\projects\chat-application\client\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects-php\chat-application\client\src\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="792e6927-5833-4471-9ef0-ee76e04b432f" name="Changes" comment="" />
+      <created>1664302550856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664302550856</updated>
+      <workItem from="1664302552115" duration="133000" />
+      <workItem from="1664302768479" duration="11405000" />
+      <workItem from="1664351255299" duration="5000" />
+      <workItem from="1664377565555" duration="2452000" />
+      <workItem from="1664380595639" duration="1011000" />
+      <workItem from="1664399636089" duration="3013000" />
+      <workItem from="1664475477517" duration="4140000" />
+      <workItem from="1664563190066" duration="1314000" />
+      <workItem from="1664564668008" duration="1474000" />
+      <workItem from="1664566200788" duration="70000" />
+      <workItem from="1664566804907" duration="208000" />
+      <workItem from="1664567343176" duration="8082000" />
+      <workItem from="1664575648482" duration="65000" />
+      <workItem from="1664576797521" duration="1271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="dbeb0fc3-8c82-4a6d-9e51-ed44cc42b933">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/client" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="eeb371ec-ab92-4dd9-a669-ed122d7223a1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/client" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
