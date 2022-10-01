@@ -27,14 +27,13 @@ export const MessageLists = styled.div`
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #000;
+    background-color: #fff;
   }
 `
 
 export const MessageHandle = styled.div`
   background-color: #9ec7f8;
- 
-  margin: 10px;
+ display: flex;
   padding: 5px 12px;
   border-radius: 12px;
   width: fit-content;
@@ -44,15 +43,18 @@ export const MessageHandle = styled.div`
 `
 
 export const Msg = styled.div`
+  background-color: red;
 `
 
 export const Date = styled.span`
   right: 0;
-  font-size: 10px;
+  font-size: 13px;
+  opacity: 40%;
+  margin-left: 23px;
 `
 
 export const MessageBlock = styled.div`
-  margin-top: 30px;
+  margin: 12px 0;
   display: flex;
   flex-direction: column;
   align-items: end;

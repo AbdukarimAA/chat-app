@@ -13,8 +13,8 @@ export const ChatTemplate = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 22%;
-  height: 85%;
+  width: 375px;
+  height: 812px;
   border-radius: 50px;
   overflow: hidden;
 `

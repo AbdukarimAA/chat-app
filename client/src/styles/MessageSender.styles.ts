@@ -28,8 +28,10 @@ export const SendMessageIcon = styled.div`
 `
 
 export const CustomImage = styled.img`
-  width: 130px;
-  height: 50px;
+  width: 252px;
+  height: 252px;
+  border: 0.33px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
 `
 
 export const CustomImg = styled.img`

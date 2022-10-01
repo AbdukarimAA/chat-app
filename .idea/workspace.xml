@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="792e6927-5833-4471-9ef0-ee76e04b432f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/MessageList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SenderMessage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/img/Battery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/img/Cellular Connection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/img/Wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/img/↳ Time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/Global.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/MessageList.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/MessageSender.styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/styles/Modal.styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\projects\chat-application\client\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -85,7 +70,7 @@
       <workItem from="1664566804907" duration="208000" />
       <workItem from="1664567343176" duration="8082000" />
       <workItem from="1664575648482" duration="65000" />
-      <workItem from="1664576797521" duration="1271000" />
+      <workItem from="1664576797521" duration="5709000" />
     </task>
     <servers />
   </component>
@@ -103,7 +88,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>

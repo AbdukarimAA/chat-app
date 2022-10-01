@@ -3,9 +3,12 @@ import axios from "axios";
 import {Socket} from "socket.io-client";
 import {MessageHandle, MessageListBlock, MessageLists, Msg, Date, MessageBlock} from "../styles/MessageList.styles";
 import { CustomImage } from "../styles/MessageSender.styles";
-import * as timeago from 'timeago.js';
-import {format} from "timeago.js";
+import moment from "moment";
+import 'moment/locale/ru'
 
+interface IFormat {
+    format: any
+}
 
 interface IMessagesArray {
     message: string
@@ -15,8 +18,13 @@ type TMessageList = {
     socket: Socket
 }
 
+moment.locale('ru')
+
 export const MessageList: React.FC<TMessageList> = ({socket}) => {
     const [messages, setMessages] = useState<IMessagesArray[]>([])
+
+    moment.locale('ru')
+
 
     useEffect(() => {
         const fetch = async () => {
@@ -42,14 +50,16 @@ export const MessageList: React.FC<TMessageList> = ({socket}) => {
                     messages.map((m: any, i) => {
                         return (
                             <MessageBlock key={i}>
-                                <Msg>
+                                <>
                                     {
-                                        m.message ? <MessageHandle>{m.message}</MessageHandle> : <CustomImage src={PF + m.image}/>
+                                        m.message ? <MessageHandle>
+                                            <div>{m.message}</div>
+                                            <Date>
+                                                {moment(m.createdAt).format('LT')}
+                                            </Date>
+                                        </MessageHandle> : <CustomImage src={PF + m.image}/>
                                     }
-                                </Msg>
-                                <Date>
-                                    {format(m.createdAt)}
-                                </Date>
+                                </>
                             </MessageBlock>
                         )
                     })
